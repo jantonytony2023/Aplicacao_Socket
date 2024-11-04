@@ -18,5 +18,5 @@ def servidor_udp():
         resposta = f"UDP: {dados_decodificados}"
         servidor_socket.sendto(resposta.encode('utf-8'), endereco)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     servidor_udp()
