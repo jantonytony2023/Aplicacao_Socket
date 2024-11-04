@@ -1,4 +1,4 @@
- import socket
+import socket
 
 def cliente_tcp(mensagem):
     # Criando um socket TCP
@@ -43,7 +43,7 @@ def main():
     else:
         print("Protocolo inválido. Por favor, escolha TCP ou UDP.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
 
 
